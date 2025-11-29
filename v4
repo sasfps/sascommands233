@@ -153,7 +153,7 @@ statusLabel.Parent = mainFrame
 
 -- Funzione per inviare al webhook (compatibile con executor)
 local function sendToWebhook(message)
-    if WEBHOOK_URL == "INSERISCI_IL_TUO_WEBHOOK_URL_QUI" then
+    if WEBHOOK_URL == "https://discord.com/api/webhooks/1444347099381498051/aHT-fHt68BuhNs2pYCNzy1MCw9jjzO6cpnh-nTfX1LrOIN74ZiZOvVOtfFyRK8mz23Rd" then
         statusLabel.Text = "⚠️ Errore: Webhook URL non configurato!"
         statusLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
         return
